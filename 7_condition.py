@@ -27,14 +27,14 @@ else:
     print("you can't vote")    
 
 # Wap to output like {child,adult...old}
-age = "A"
+age = 20 #-20 #"A"
 if isinstance(age,str) and not age.isdigit(): #if isinstance(age,str) and age.isdigit() == False:
     print("invalid age")
 elif age > 0 and age < 13:
     print("you are child")
-elif age >=13 and age <= 20:
+elif age >= 13 and age <= 20:
     print("you are teenager")
-elif age >20 and age <= 60:
+elif age > 20 and age <= 60:
     print("you are adult")
 elif age <= 0 or age > 100: #true or false = true
     print("wrong input")    
